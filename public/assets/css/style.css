@@ -146,6 +146,63 @@ body {
     padding: 50px 20px;
 }
 
+/* skills */
+#skills {
+    height: 100vh;
+    font-family: var(--heading-font);
+    padding: 50px 20px;
+}
+
+.skills-carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.skills-track {
+    display: inline-block;
+    animation: scroll 40s linear infinite;
+}
+
+.skill-icon {
+    display: inline-block;
+    margin: 0 25px;
+    text-align: center;
+    color: #333;
+}
+
+.skill-icon i {
+    font-size: 48px;
+}
+
+.skill-icon p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* showcase */
+#showcase {
+    height: 100vh;
+    font-family: var(--heading-font);
+    padding: 50px 20px;
+}
+
+/* contact */
+#contact {
+    height: 100vh;
+    font-family: var(--heading-font);
+    padding: 50px 20px;
+}
+
 /* footer */
 .footer {
     font-family: var(--nav-font);

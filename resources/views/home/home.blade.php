@@ -70,7 +70,7 @@
                 <div class="card h-100 shadow-sm border-0">
                     <div class="card-body text-center">
                         <i class="fas fa-graduation-cap fa-2x mb-3 text-primary"></i>
-                        <h5 class="card-title">Education</h5>
+                        <h6 class="card-title"><i>Education</i></h6>
                         <ul class="list-unstyled mt-3">
                             <li><strong>Sriwijaya State Polytechnics</strong></li>
                             <li>Major in Informatics Management</li>
@@ -85,11 +85,16 @@
                 <div class="card h-100 shadow-sm border-0">
                     <div class="card-body text-center">
                         <i class="fas fa-briefcase fa-2x mb-3 text-success"></i>
-                        <h5 class="card-title">Profesional experience</h5>
+                        <h6 class="card-title"><i>Profesional experience</i></h6>
                         <ul class="list-unstyled mt-3">
-                            <li><strong>UKM LDK Karisma POLSRI</strong></li>
-                            <li>Humas, Multimedia, Pers</li>
-                            <li>2022 – 2024</li>
+                            <li><strong>LLDIKTI Wilayah II</strong></li>
+                            <li>Information System Staff Intern</li>
+                            <li>Aug - Nov 2023</li>
+                        </ul>
+                        <ul class="list-unstyled mt-3">
+                            <li><strong>LKP PalComTech OPI</strong></li>
+                            <li>Computer Instructor</li>
+                            <li>Aug 2024 - Now</li>
                         </ul>
                     </div>
                 </div>
@@ -100,7 +105,7 @@
                 <div class="card h-100 shadow-sm border-0">
                     <div class="card-body text-center">
                         <i class="fas fa-trophy fa-2x mb-3 text-warning"></i>
-                        <h5 class="card-title">Achievements</h5>
+                        <h6 class="card-title"><i>Achievements</i></h6>
                         <ul class="list-unstyled mt-3">
                             <li><strong>E-Goverment 3rd Winner</strong></li>
                             <li>KMIPN V - 2023</li>
@@ -119,21 +124,110 @@
 
 {{-- skills --}}
 <secion id="skills" class="">
+    <div class="text-center">
+        <p class="section__text__p1 text-center">Explore My</p>
+        <h1 class="title mb-5">Skills</h1>
+    </div>
 
+    <div class="skills-carousel mt-4">
+        <div class="skills-track">
+            <!-- Repeat the icons twice for smooth loop -->
+            <div class="skill-icon"><i class="devicon-dart-plain colored"></i><p>Dart</p></div>
+            <div class="skill-icon"><i class="devicon-flutter-plain colored"></i><p>Flutter</p></div>
+            <div class="skill-icon"><i class="devicon-laravel-plain colored"></i><p>Laravel</p></div>
+            <div class="skill-icon"><i class="devicon-php-plain colored"></i><p>PHP</p></div>
+            <div class="skill-icon"><i class="devicon-html5-plain colored"></i><p>HTML</p></div>
+            <div class="skill-icon"><i class="devicon-css3-plain colored"></i><p>CSS</p></div>
+            <div class="skill-icon"><i class="devicon-bootstrap-plain colored"></i><p>Bootstrap</p></div>
+            <div class="skill-icon"><i class="devicon-javascript-plain colored"></i><p>JavaScript</p></div>
+            <div class="skill-icon"><i class="devicon-java-plain colored"></i><p>Java</p></div>
+            <div class="skill-icon"><i class="devicon-firebase-plain colored"></i><p>Firebase</p></div>
+            <div class="skill-icon"><i class="devicon-photoshop-plain colored"></i><p>Photoshop</p></div>
+            <div class="skill-icon"><i class="devicon-figma-plain colored"></i><p>Figma</p></div>
+            <div class="skill-icon"><i class="fas fa-pen-nib text-success"></i><p>CorelDraw</p></div>
+            <div class="skill-icon"><i class="devicon-wordpress-plain colored"></i><p>WordPress</p></div>
+
+            <!-- Duplicate for seamless looping -->
+            <div class="skill-icon"><i class="devicon-dart-plain colored"></i><p>Dart</p></div>
+            <div class="skill-icon"><i class="devicon-flutter-plain colored"></i><p>Flutter</p></div>
+            <div class="skill-icon"><i class="devicon-laravel-plain colored"></i><p>Laravel</p></div>
+            <div class="skill-icon"><i class="devicon-php-plain colored"></i><p>PHP</p></div>
+            <div class="skill-icon"><i class="devicon-html5-plain colored"></i><p>HTML</p></div>
+            <div class="skill-icon"><i class="devicon-css3-plain colored"></i><p>CSS</p></div>
+            <div class="skill-icon"><i class="devicon-bootstrap-plain colored"></i><p>Bootstrap</p></div>
+            <div class="skill-icon"><i class="devicon-javascript-plain colored"></i><p>JavaScript</p></div>
+            <div class="skill-icon"><i class="devicon-java-plain colored"></i><p>Java</p></div>
+            <div class="skill-icon"><i class="devicon-firebase-plain colored"></i><p>Firebase</p></div>
+            <div class="skill-icon"><i class="devicon-photoshop-plain colored"></i><p>Photoshop</p></div>
+            <div class="skill-icon"><i class="devicon-figma-plain colored"></i><p>Figma</p></div>
+            <div class="skill-icon"><i class="fas fa-pen-nib text-success"></i><p>CorelDraw</p></div>
+            <div class="skill-icon"><i class="devicon-wordpress-plain colored"></i><p>WordPress</p></div>
+        </div>
+    </div>
 </secion>
 
 {{-- showcase --}}
-<section id="showcase" class="">
+<section id="showcase" class="py-5">
+    <div class="text-center">
+        <p class="section__text__p1 text-center">Browser My Recent</p>
+        <h1 class="title mb-5">Project</h1>
+    </div>
 
+    <div class="container">
+        <div class="row g-4 justify-content-center">
+        <!-- Showcase Card -->
+            <div class="col-md-6 col-lg-3">
+                <div class="project-card position-relative text-center p-3 rounded" style="background-color: #000;">
+                    <img src="assets/images/1.png" alt="Mobile App" class="img-fluid project-mockup">
+                    <a href="mobile-app.html" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
+                    Mobile App <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="project-card position-relative text-center p-3 rounded" style="background-color: #6200ea;">
+                    <img src="assets/images/2.png" alt="Web App" class="img-fluid project-mockup">
+                    <a href="web-app.html" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
+                        Web App <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="project-card position-relative text-center p-3 rounded" style="background-color: #ff5722;">
+                    <img src="assets/images/3.png" alt="UI/UX Design" class="img-fluid project-mockup">
+                    <a href="uiux-design.html" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
+                        UI/UX Design <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="project-card position-relative text-center p-3 rounded" style="background-color: #4caf50;">
+                    <img src="assets/images/4.png" alt="Graphic Design" class="img-fluid project-mockup">
+                    <a href="graphic-design.html" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
+                        Graphic Design <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 {{-- contact --}}
 <section id="contact" class="">
-
+    <div class="text-center">
+        <p class="section__text__p1 text-center">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <p class="text-center mt-5">I am always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+        <div class="btn-container">
+            <button class="btn btn-dark px-4 py-2">Contact Me</button>
+        </div>
+    </div>
 </section>
 
 {{-- dinesign --}}
-
+<section id="dinesign" class="">
+    
+</section>
 
 
 @endsection
