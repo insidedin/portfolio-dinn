@@ -23,16 +23,16 @@
             <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="" class="nav-link text-uppercase">About</a>
+                        <a href="#about" class="nav-link text-uppercase">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link text-uppercase">Skills</a>
+                        <a href="#skills" class="nav-link text-uppercase">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link text-uppercase">Showcase</a>
+                        <a href="#showcase" class="nav-link text-uppercase">Showcase</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link text-uppercase">Contact</a>
+                        <a href="#footer" class="nav-link text-uppercase">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link text-uppercase">Dinesign</a>
@@ -46,10 +46,77 @@
     @yield('konten')
 
     {{-- footer --}}
-    <footer class="footer text-center py-3">
-        <p>Copyright &copy; 2025 <strong>insidedin</strong>
-        All Right Reserved. <br><strong>Andini Rahmatillah</strong></p>
+    <footer id="footer" class="bg-light pt-5 pb-4">
+        <div class="container text-md-start text-center">
+            <div class="row">
+                <!-- Logo & Description -->
+                <div class="col-md-4 mb-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" style="width: 40px; height: auto;" class="me-2">
+                        <h5 class="mb-0"><strong>insidedin</strong></h5>
+                    </div>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Social media icons below.</p>
+                    <div>
+                        <a href="#" class="me-2 text-dark"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="me-2 text-dark"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="me-2 text-dark"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="me-2 text-dark"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <!-- Navigation -->
+                <div class="col-md-2 mb-4">
+                    <h6 class="fw-bold">Navigation</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#profile" class="text-muted">Home</a></li>
+                        <li><a href="#about" class="text-muted">About</a></li>
+                        <li><a href="#skill" class="text-muted">Skills</a></li>
+                        <li><a href="#showcase" class="text-muted">Showcase</a></li>
+                    </ul>
+                </div>
+                <!-- Contact -->
+                <div class="col-md-3 mb-4">
+                    <h6 class="fw-bold">Contact</h6>
+                    <p class="text-muted mb-1"><i class="fas fa-phone me-2"></i>+6281273087299</p>
+                    <p class="text-muted mb-1"><i class="fas fa-envelope me-2"></i>insidedin@gmail.com</p>
+                    <p class="text-muted"><i class="fas fa-map-marker-alt me-2"></i>Palembang, Indonesia</p>
+                </div>
+                <!-- Newsletter -->
+                <div class="col-md-3 mb-4">
+                    <h6 class="fw-bold">Get the Latest Updates</h6>
+                    <form>
+                        <div class="input-group mt-2">
+                        <input type="email" class="form-control" placeholder="Your email" aria-label="Email">
+                        <button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </footer>
+
+
+    <!-- Scroll to Top Button -->
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Kembali ke atas">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Show/hide button on scroll
+            window.onscroll = function () {
+            let btn = document.getElementById("scrollTopBtn");
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+            };
+
+            // Scroll to top smoothly
+            function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+    </script>
 
     {{-- library animasi  --}}
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>

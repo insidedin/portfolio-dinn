@@ -65,55 +65,28 @@
         <p class="mb-5">Here’s a quick snapshot of my background in education, organization, and achievements.</p>
 
         <div class="row justify-content-center">
-            <!-- Education Card -->
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body text-center">
-                        <i class="fas fa-graduation-cap fa-2x mb-3 text-primary"></i>
-                        <h6 class="card-title"><i>Education</i></h6>
-                        <ul class="list-unstyled mt-3">
-                            <li><strong>Sriwijaya State Polytechnics</strong></li>
-                            <li>Major in Informatics Management</li>
-                            <li>Graduated in 2024</li>
-                        </ul>
+            <!-- Education Column -->
+            <div class="col-md-5 mb-4">
+                <div class="p-4 shadow rounded bg-white">
+                    <h5><i class="fas fa-graduation-cap me-2 text-warning"></i>Education</h5>
+                    <hr>
+                    <div class="mb-3">
+                        <small class="text-muted">2021 – 2024</small>
+                        <h6 class="mb-0">Sriwijaya State Polytechnic</h6>
+                        <p class="text-muted">Informatics Management</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Organization Card -->
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body text-center">
-                        <i class="fas fa-briefcase fa-2x mb-3 text-success"></i>
-                        <h6 class="card-title"><i>Profesional experience</i></h6>
-                        <ul class="list-unstyled mt-3">
-                            <li><strong>LLDIKTI Wilayah II</strong></li>
-                            <li>Information System Staff Intern</li>
-                            <li>Aug - Nov 2023</li>
-                        </ul>
-                        <ul class="list-unstyled mt-3">
-                            <li><strong>LKP PalComTech OPI</strong></li>
-                            <li>Computer Instructor</li>
-                            <li>Aug 2024 - Now</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Achievement Card -->
-            <div class="col-12 col-md-4 mb-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <div class="card-body text-center">
-                        <i class="fas fa-trophy fa-2x mb-3 text-warning"></i>
-                        <h6 class="card-title"><i>Achievements</i></h6>
-                        <ul class="list-unstyled mt-3">
-                            <li><strong>E-Goverment 3rd Winner</strong></li>
-                            <li>KMIPN V - 2023</li>
-                        </ul>
-                        <ul class="list-unstyled mt-3">
-                            <li><strong>Cipta Inovasi TIK 2nd Winner <br>of Profile Product Design</strong></li>
-                            <li>KMIPN VI - 2024</li>
-                        </ul>
+            <!-- Work Experience Column -->
+            <div class="col-md-5 mb-4">
+                <div class="p-4 shadow rounded bg-white">
+                    <h5><i class="fas fa-briefcase me-2 text-primary"></i>Work Experience</h5>
+                    <hr>
+                    <div class="mb-3">
+                        <small class="text-muted">2022 – 2024</small>
+                        <h6 class="mb-0">UKM LDK Karisma POLSRI</h6>
+                        <p class="text-muted">Multimedia, Humas, Pers</p>
                     </div>
                 </div>
             </div>
@@ -212,21 +185,9 @@
     </div>
 </section>
 
-{{-- contact --}}
-<section id="contact" class="">
-    <div class="text-center">
-        <p class="section__text__p1 text-center">Get In Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <p class="text-center mt-5">I am always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-        <div class="btn-container">
-            <button class="btn btn-dark px-4 py-2">Contact Me</button>
-        </div>
-    </div>
-</section>
-
 {{-- dinesign --}}
 <section id="dinesign" class="">
-    
+
 </section>
 
 
