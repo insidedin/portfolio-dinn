@@ -55,31 +55,31 @@
                         <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" style="width: 40px; height: auto;" class="me-2">
                         <h5 class="mb-0"><strong>insidedin</strong></h5>
                     </div>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Social media icons below.</p>
+                    <p class="text-muted">Let’s grow and inspire through code, creativity, and consistency.</p>
                     <div>
-                        <a href="#" class="me-2 text-dark"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="me-2 text-dark"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="me-2 text-dark"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="me-2 text-dark"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="text-dark"><i class="fab fa-dribbble"></i></a>
+                        <a href="https://github.com/insidedin" class="me-2 text-dark"><i class="fab fa-github icon"></i></a>
+                        <a href="https://www.linkedin.com/in/andinirahmatillah/" class="me-2 text-dark"><i class="fab fa-linkedin icon"></i></a>
+                        <a href="https://www.instagram.com/insidedin" class="me-2 text-dark"><i class="fab fa-instagram icon"></i></a>
+                        <a href="https://medium.com/@insidedin" class="me-2 text-dark"><i class="fab fa-medium icon"></i></a>
+                        {{-- <a href="mailto:andini.rahmatillah@gmail.com" class="text-dark"><i class="fas fa-envelope icon"></i></a> --}}
                     </div>
                 </div>
                 <!-- Navigation -->
                 <div class="col-md-2 mb-4">
                     <h6 class="fw-bold">Navigation</h6>
-                    <ul class="list-unstyled">
-                        <li><a href="#profile" class="text-muted">Home</a></li>
-                        <li><a href="#about" class="text-muted">About</a></li>
-                        <li><a href="#skill" class="text-muted">Skills</a></li>
-                        <li><a href="#showcase" class="text-muted">Showcase</a></li>
+                    <ul class="list-unstyled footer-nav">
+                        <li><a href="#profile">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="#showcase">Showcase</a></li>
                     </ul>
                 </div>
                 <!-- Contact -->
                 <div class="col-md-3 mb-4">
                     <h6 class="fw-bold">Contact</h6>
-                    <p class="text-muted mb-1"><i class="fas fa-phone me-2"></i>+6281273087299</p>
-                    <p class="text-muted mb-1"><i class="fas fa-envelope me-2"></i>insidedin@gmail.com</p>
-                    <p class="text-muted"><i class="fas fa-map-marker-alt me-2"></i>Palembang, Indonesia</p>
+                    <p class="text-muted mb-1"><i class="fas fa-phone icon me-2 text-dark"></i>+6281273087299</p>
+                    <p class="text-muted mb-1"><i class="fas fa-envelope icon me-2 text-dark"></i> insidedin@gmail.com</p>
+                    <p class="text-muted"><i class="fas fa-map-marker-alt icon me-2 text-dark"></i>  Palembang, Indonesia</p>
                 </div>
                 <!-- Newsletter -->
                 <div class="col-md-3 mb-4">

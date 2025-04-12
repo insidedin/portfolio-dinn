@@ -196,6 +196,28 @@ body {
     padding: 50px 20px;
 }
 
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project-card a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.project-card:hover a {
+    background-color: #212529; /* hitam atau bisa sesuaikan */
+    color: #fff;
+}
+
+
 /* footer */
 #footer {
     font-family: var(--nav-font);
@@ -205,6 +227,18 @@ body {
     color: #8e6336;
 }
 
+.footer-nav a {
+    text-decoration: none;
+    color: #6c757d;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #8e6336;
+}
+
+
+/* scroll to top button */
 #scrollTopBtn {
     display: none; /* hidden by default */
     position: fixed;

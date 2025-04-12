@@ -73,7 +73,7 @@
                     <div class="mb-3">
                         <small class="text-muted">2021 – 2024</small>
                         <h6 class="mb-0">Sriwijaya State Polytechnic</h6>
-                        <p class="text-muted">Informatics Management</p>
+                        <p class="text-muted">Diploma - Informatics Management <br>GPA 3.60/4.00</p>
                     </div>
                 </div>
             </div>
@@ -81,12 +81,17 @@
             <!-- Work Experience Column -->
             <div class="col-md-5 mb-4">
                 <div class="p-4 shadow rounded bg-white">
-                    <h5><i class="fas fa-briefcase me-2 text-primary"></i>Work Experience</h5>
+                    <h5><i class="fas fa-briefcase me-2 text-primary"></i>Professional Experience</h5>
                     <hr>
                     <div class="mb-3">
-                        <small class="text-muted">2022 – 2024</small>
-                        <h6 class="mb-0">UKM LDK Karisma POLSRI</h6>
-                        <p class="text-muted">Multimedia, Humas, Pers</p>
+                        <small class="text-muted">Aug - Nov 2023</small>
+                        <h6 class="mb-0">LLDIKTI Wilayah II</h6>
+                        <p class="text-muted">Information System Intern</p>
+                    </div>
+                    <div class="mb-3">
+                        <small class="text-muted">Aug 2024 - Now</small>
+                        <h6 class="mb-0">LKP PalComTech OPI</h6>
+                        <p class="text-muted">Computer Instructors</p>
                     </div>
                 </div>
             </div>
@@ -121,6 +126,22 @@
             <div class="skill-icon"><i class="devicon-wordpress-plain colored"></i><p>WordPress</p></div>
 
             <!-- Duplicate for seamless looping -->
+            <div class="skill-icon"><i class="devicon-dart-plain colored"></i><p>Dart</p></div>
+            <div class="skill-icon"><i class="devicon-flutter-plain colored"></i><p>Flutter</p></div>
+            <div class="skill-icon"><i class="devicon-laravel-plain colored"></i><p>Laravel</p></div>
+            <div class="skill-icon"><i class="devicon-php-plain colored"></i><p>PHP</p></div>
+            <div class="skill-icon"><i class="devicon-html5-plain colored"></i><p>HTML</p></div>
+            <div class="skill-icon"><i class="devicon-css3-plain colored"></i><p>CSS</p></div>
+            <div class="skill-icon"><i class="devicon-bootstrap-plain colored"></i><p>Bootstrap</p></div>
+            <div class="skill-icon"><i class="devicon-javascript-plain colored"></i><p>JavaScript</p></div>
+            <div class="skill-icon"><i class="devicon-java-plain colored"></i><p>Java</p></div>
+            <div class="skill-icon"><i class="devicon-firebase-plain colored"></i><p>Firebase</p></div>
+            <div class="skill-icon"><i class="devicon-photoshop-plain colored"></i><p>Photoshop</p></div>
+            <div class="skill-icon"><i class="devicon-figma-plain colored"></i><p>Figma</p></div>
+            <div class="skill-icon"><i class="fas fa-pen-nib text-success"></i><p>CorelDraw</p></div>
+            <div class="skill-icon"><i class="devicon-wordpress-plain colored"></i><p>WordPress</p></div>
+
+            <!-- Repeat the icons twice for smooth loop -->
             <div class="skill-icon"><i class="devicon-dart-plain colored"></i><p>Dart</p></div>
             <div class="skill-icon"><i class="devicon-flutter-plain colored"></i><p>Flutter</p></div>
             <div class="skill-icon"><i class="devicon-laravel-plain colored"></i><p>Laravel</p></div>
