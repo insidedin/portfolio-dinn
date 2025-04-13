@@ -19,7 +19,7 @@
                     <li><span>Graphics Designer</span></li>
                     <li><span>UI/UX Designer</span></li>
                     <li><span>Front-End Developer</span></li>
-                    <li><span>Mobile Developer</span></li>
+                    <li><span>Mobile Enthusiast</span></li>
                 </ul>
             </div>
 
@@ -173,23 +173,23 @@
             <div class="col-md-6 col-lg-3">
                 <div class="project-card position-relative text-center p-3 rounded" style="background-color: #000;">
                     <img src="assets/images/1.png" alt="Mobile App" class="img-fluid project-mockup">
-                    <a href="mobile-app.html" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
-                    Mobile App <i class="fas fa-arrow-right ms-2"></i>
+                    <a href="/mobile" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
+                    Mobile<i class="fas fa-arrow-right ms-2"></i>
                     </a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="project-card position-relative text-center p-3 rounded" style="background-color: #6200ea;">
                     <img src="assets/images/2.png" alt="Web App" class="img-fluid project-mockup">
-                    <a href="web-app.html" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
-                        Web App <i class="fas fa-arrow-right ms-2"></i>
+                    <a href="/website" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
+                        Website <i class="fas fa-arrow-right ms-2"></i>
                     </a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="project-card position-relative text-center p-3 rounded" style="background-color: #ff5722;">
                     <img src="assets/images/3.png" alt="UI/UX Design" class="img-fluid project-mockup">
-                    <a href="uiux-design.html" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
+                    <a href="/uiux" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
                         UI/UX Design <i class="fas fa-arrow-right ms-2"></i>
                     </a>
                 </div>
@@ -197,7 +197,7 @@
             <div class="col-md-6 col-lg-3">
                 <div class="project-card position-relative text-center p-3 rounded" style="background-color: #4caf50;">
                     <img src="assets/images/4.png" alt="Graphic Design" class="img-fluid project-mockup">
-                    <a href="graphic-design.html" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
+                    <a href="/desain" class="badge bg-light text-dark mt-3 d-inline-block px-3 py-2 rounded-pill shadow-sm" style="text-decoration: none;">
                         Graphic Design <i class="fas fa-arrow-right ms-2"></i>
                     </a>
                 </div>

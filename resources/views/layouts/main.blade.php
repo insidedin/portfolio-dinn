@@ -5,13 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('judul')</title>
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        transition: all 0.3s ease;
+    }
+    .card-title {
+        font-weight: 600;
+    }
+    .card-text {
+        font-size: 0.9rem;
+    }
+    /* footer */
+    #footer {
+        font-family: var(--nav-font);
+    }
+
+    #footer strong {
+        color: #8e6336;
+    }
+
+    .footer-nav a {
+        text-decoration: none;
+        color: #6c757d;
+        transition: color 0.3s;
+    }
+
+    .footer-nav a:hover {
+        color: #8e6336;
+    }
+
+
+    /* scroll to top button */
+    #scrollTopBtn {
+        display: none; /* hidden by default */
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 99;
+        width: 50px;
+        height: 50px;
+        font-size: 15px;
+        background-color: #8e6336;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 12px 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: all 0.3s ease-in-out;
+    }
+
+    #scrollTopBtn:hover {
+        background-color: #442d15;
+    }
+
+    </style>
 </head>
 <body>
     {{-- side --}}

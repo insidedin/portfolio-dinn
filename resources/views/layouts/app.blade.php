@@ -79,17 +79,12 @@
                     <h6 class="fw-bold">Contact</h6>
                     <p class="text-muted mb-1"><i class="fas fa-phone icon me-2 text-dark"></i>+6281273087299</p>
                     <p class="text-muted mb-1"><i class="fas fa-envelope icon me-2 text-dark"></i> insidedin@gmail.com</p>
-                    <p class="text-muted"><i class="fas fa-map-marker-alt icon me-2 text-dark"></i>  Palembang, Indonesia</p>
+                    <p class="text-muted"><i class="fas fa-map-marker-alt icon me-2 text-dark"></i>   Palembang, Indonesia</p>
                 </div>
-                <!-- Newsletter -->
+                <!-- About This Site -->
                 <div class="col-md-3 mb-4">
-                    <h6 class="fw-bold">Get the Latest Updates</h6>
-                    <form>
-                        <div class="input-group mt-2">
-                        <input type="email" class="form-control" placeholder="Your email" aria-label="Email">
-                        <button class="btn btn-success" type="submit"><i class="fas fa-paper-plane"></i></button>
-                        </div>
-                    </form>
+                    <h6 class="fw-bold">About This Site</h6>
+                    <p class="text-muted">This website is a personal portfolio built with love, clean code, and lots of coffee ☕. Thanks for stopping by!</p>
                 </div>
             </div>
         </div>
