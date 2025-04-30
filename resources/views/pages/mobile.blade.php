@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('judul', 'Showcase - Mobile App') {{-- Judul bisa dinamis --}}
+@section('judul', 'Showcase - Mobile App')
 
 @section('konten')
 <section class="py-5" id="showcase-detail">

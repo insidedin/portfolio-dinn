@@ -148,7 +148,6 @@ body {
 
 /* skills */
 #skills {
-    height: 100vh;
     font-family: var(--heading-font);
     padding: 50px 20px;
 }

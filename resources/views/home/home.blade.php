@@ -5,8 +5,7 @@
 @section('konten')
 
 {{-- profile --}}
-<section id="profile">
-    <section id="profile" class="d-flex justify-content-center align-items-center flex-wrap">
+<section id="profile" class="d-flex justify-content-center align-items-center flex-wrap">
         <div class="section__pic-container text-center">
             <img src="{{ asset('assets/images/andini.jpeg') }}" alt="It's Andini" class="profile-img" />
         </div>
@@ -51,7 +50,6 @@
 
             </div>
         </div>
-    </section>
 </section>
 
 {{-- about --}}
@@ -101,7 +99,7 @@
 
 
 {{-- skills --}}
-<secion id="skills" class="">
+<section id="skills" class="">
     <div class="text-center">
         <p class="section__text__p1 text-center">Explore My</p>
         <h1 class="title mb-5">Skills</h1>
@@ -158,7 +156,7 @@
             <div class="skill-icon"><i class="devicon-wordpress-plain colored"></i><p>WordPress</p></div>
         </div>
     </div>
-</secion>
+</section>
 
 {{-- showcase --}}
 <section id="showcase" class="py-5">
