@@ -222,7 +222,6 @@ body {
 #footer {
     padding: auto;
     font-family: var(--nav-font);
-    height: 100vh;
 }
 
 #footer strong {

@@ -58,7 +58,7 @@
         <p class="section__text__p1 text-center">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <p class="text-center mt-5">
-            I am a passionate and dedicated individual with a strong interest in technology and design. I have a background in graphic design, UI/UX design, and front-end development. I enjoy creating visually appealing and user-friendly interfaces that enhance the overall user experience.
+            I am a passionate and dedicated individual with a strong interest in technology and design. I have a background in design, UI/UX design, and front-end development. I enjoy creating visually appealing and user-friendly interfaces that enhance the overall user experience.
         </p>
         <p class="mb-5">Here’s a quick snapshot of my background in education, organization, and achievements.</p>
 
@@ -66,12 +66,27 @@
             <!-- Education Column -->
             <div class="col-md-5 mb-4">
                 <div class="p-4 shadow rounded bg-white">
-                    <h5><i class="fas fa-graduation-cap me-2 text-warning"></i>Education</h5>
+                    <h5><i class="fas fa-graduation-cap me-2 text-info"></i>Education</h5>
                     <hr>
                     <div class="mb-3">
                         <small class="text-muted">2021 – 2024</small>
                         <h6 class="mb-0">Sriwijaya State Polytechnic</h6>
                         <p class="text-muted">Diploma - Informatics Management <br>GPA 3.60/4.00</p>
+                    </div>
+                </div>
+                <br>
+                <div class="p-4 shadow rounded bg-white">
+                    <h5><i class="fas fa-users me-2 text-success"></i>Organization</h5>
+                    <hr>
+                    <div class="mb-3">
+                        <small class="text-muted">2022 - 2023</small>
+                        <h6 class="mb-0">Multimedia Division</h6>
+                        <p class="text-muted">Member and secretary of the multimedia division at UKM LDK Karisma Polsri.</p>
+                    </div>
+                    <div class="mb-3">
+                        <small class="text-muted">2023 - Now</small>
+                        <h6 class="mb-0">Multimedia Division</h6>
+                        <p class="text-muted">Member and secretary of the multimedia division at UKM LDK Karisma Polsri.</p>
                     </div>
                 </div>
             </div>
@@ -90,6 +105,24 @@
                         <small class="text-muted">Aug 2024 - Now</small>
                         <h6 class="mb-0">LKP PalComTech OPI</h6>
                         <p class="text-muted">Computer Instructors</p>
+                    </div>
+                    <div class="mb-3">
+                        <small class="text-muted">July 2025</small>
+                        <h6 class="mb-0">SMA Taruna Indonesia</h6>
+                        <p class="text-muted">Computer Teachers</p>
+                    </div>
+                </div>
+                <br>
+                <div class="p-4 shadow rounded bg-white">
+                    <h5><i class="fas fa-trophy me-2 text-warning"></i>Achievements</h5>
+                    <hr>
+                    <div class="mb-3">
+                        <small class="text-muted">Kompetisi Mahasiswa Informatika Politeknik Nasional 2023</small>
+                        <h6 class="mb-0">Juara 3 Kategori e-Goverment</h6>
+                    </div>
+                    <div class="mb-3">
+                        <small class="text-muted">Kompetisi Mahasiswa Informatika Politeknik Nasional 2024</small>
+                        <h6 class="mb-0">Juara 2 Desain Profil Produk Pengguna Kategori Cipta Inovasi TIK</h6>
                     </div>
                 </div>
             </div>
